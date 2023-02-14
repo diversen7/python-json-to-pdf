@@ -23,11 +23,7 @@ class JsonToHtml:
         with open(file_name, "w") as f:
             f.write(string)
 
-    # iterate through the json data in a recursive manner
-    # every time a new level is reached, add a new heading
-    # if a list is found, add keys and values as a paragraph, but beare of nested lists
-    # as these can contain dicts
-    # if a string or int or float is found, add it as a paragraph
+
     def iterate(self, json_data):
 
         html = ""
