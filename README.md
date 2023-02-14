@@ -8,7 +8,7 @@ The generatd HTML is then converted to PDF using [wkhtmltopdf](https://wkhtmltop
 
 ## Installation
 
-    git clone
+    git clone git@github.com:diversen7/python-json-to-pdf.git
 
 ## Usage example
 
