@@ -2,7 +2,7 @@
 
 Simple CLI tool to convert JSON to PDF.
 For each indent level, a new heading is created. 
-The first level is a <h1>, the second level is a <h2>, etc.
+The first level is a `<h1>`, the second level is a `<h2>`, etc.
 
 The generatd HTML is then converted to PDF using [wkhtmltopdf](https://wkhtmltopdf.org/).
 
