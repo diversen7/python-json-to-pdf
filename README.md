@@ -1,4 +1,4 @@
-# json-to-pdf
+# python-json-to-pdf
 
 Simple CLI tool to convert JSON to PDF.
 For each indent level, a new heading is created. 
@@ -29,3 +29,7 @@ And then run:
 View generated HTML:
 
     python -m http.server --directory html/ 
+
+# License
+
+MIT ©
