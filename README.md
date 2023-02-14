@@ -12,9 +12,9 @@ The generatd HTML is then converted to PDF using [wkhtmltopdf](https://wkhtmltop
 
 ## Usage example
 
-[cli.sh](cli.sh) is an example of how to use the cli.py script.
+[cli.py](cli.py) is an example of how to use the cli.py script.
 
-    python cli.sh
+    python cli.py
 
 ## Watch
 
@@ -22,13 +22,13 @@ Use nodejs:
 
     npm install simple-file-watch -g
 
-And then run:
+And then run (something like this):
 
     simple-file-watch --delay=1000 --extension='py,html,json' --path='.' --command='python cli.py'
 
 View generated HTML:
 
-    python -m http.server --directory html/ 
+    python -m http.server --directory output/
 
 # License
 
