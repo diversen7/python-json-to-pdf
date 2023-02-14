@@ -12,12 +12,4 @@ template_str = json_to_html.read_string_from_file(template)
 html = template_str.replace("{{content}}", html)
 
 json_to_html.write_to_file("output/index.html", html)
-
-# pdfkit.from_file("./output/index.html", "./output/test.pdf")
-
 pdfkit.from_file("output/index.html", "output/output.pdf", options={"enable-local-file-access": ""})
-
-
-
-
-
