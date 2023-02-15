@@ -9,13 +9,9 @@ The generatd HTML is then converted to PDF using [wkhtmltopdf](https://wkhtmltop
 ## Installation
 
     git clone git@github.com:diversen7/python-json-to-pdf.git
-
     cd python-json-to-pdf
-
-    virtualvenv venv
-
+    virtualenv venv
     source venv/bin/activate
-    
     pip install -r requirements.txt
 
 ## Usage example
