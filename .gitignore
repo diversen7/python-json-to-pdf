@@ -2,3 +2,5 @@ venv
 __pycache__
 *.pyc
 pdf/*.pdf
+output/*.html
+output/*.pdf
