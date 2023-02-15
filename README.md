@@ -32,7 +32,7 @@ Use nodejs:
 
 And then run (something like this):
 
-    simple-file-watch --delay=1000 --extension='py,html,json' --path='.' --command='python cli.py'
+    simple-file-watch --delay=2000 --command='python cli.py' --recursive
 
 View generated HTML:
 

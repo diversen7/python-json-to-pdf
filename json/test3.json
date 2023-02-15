@@ -1,0 +1,32 @@
+{
+    "KMD Arbejdsmarkssystem" : {
+        "stamdata": {
+            "fornavn": "test",
+            "efternavn": "testesen"
+        },
+        "sager": [
+            {
+                "sags_id": "17/4534",
+                "sagstitel": "titel",
+                "note": "Test note",
+                "dokumenter": [
+                    {
+                        "dok_id": "17/4422-2",
+                        "dok_title": "testdok",
+                        "lokalitet": "dokk1"
+                    },
+                    {
+                        "dok_id": "19/12",
+                        "dok_title": "testdok",
+                        "lokalitet": "dokk1"
+                    }
+                ]
+            },
+            {
+                "sags_id": "19/334",
+                "sagstitel": "titel",
+                "note": "ingen dokumenter"
+            }
+        ]
+    }
+}
